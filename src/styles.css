@@ -1,0 +1,75 @@
+.App {
+    font-family: sans-serif;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+  
+  .form {
+    width: 100%;
+    max-width: 400px;
+    position: fixed;
+    top: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .item {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .App{
+    width: 500px;
+    margin: auto;
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 10px 20px 20px 20px
+  }
+
+  .list{
+    margin-top: 10px;
+  }
+
+  .cmt{
+    border: solid 1px whitesmoke;
+    width: 80%;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+  }
+
+  .cmt > div{
+    text-align: start;
+  }
+
+  .cmt > a{
+    font-size: 10px;
+    text-align: start;
+    margin-right: 5px;
+  }
+
+  .avatar{
+    background-color: burlywood;
+    border-radius: 100%;
+    font-size: 14px;
+    line-height: 60px;
+    padding: 4px;
+    margin: 10px;
+  }
+  
